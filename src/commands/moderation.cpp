@@ -206,7 +206,7 @@ void AOClient::cmdUnBan(int argc, QStringList argv)
 
 void AOClient::cmdAbout(int argc, QStringList argv)
 {
-    sendPacket("CT", {"The akashi dev team", "Thank you for using akashi! Made with love by scatterflower, with help from in1tiate, Salanto, and mangosarentliterature. akashi " + QCoreApplication::applicationVersion() + ". For documentation and reporting issues, see the source: https://github.com/AttorneyOnline/akashi"});
+    sendPacket("CT", {"The akashi dev team", "Thank you for using akashi! Made with love by scatterflower, with help from in1tiate, Salanto, and mangosarentliterature. akashi " + QCoreApplication::applicationVersion() + ". For documentation and reporting issues, see the source: https://github.com/AttorneyOnline/akashi. This server is running the DTServer Branch on : https://github.com/Salanto/akashi"});
 }
 
 void AOClient::cmdMute(int argc, QStringList argv)
